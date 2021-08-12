@@ -1,7 +1,3 @@
-### Project 1
+This project deploy URL : http://tdapp.surge.sh/
 
-Manufacturing Company Website : http://acmp.surge.sh/
 
-### Project 2
-
-Saylani Welfare Landing Page : http://saylani-demo-app.surge.sh/
