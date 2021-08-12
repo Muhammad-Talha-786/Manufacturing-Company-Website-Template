@@ -1,0 +1,9 @@
+body{
+    background-color: floralwhite;
+    text-align: center;
+    color: black;
+}
+h1{
+    display: inline-block;
+    width: 40px;
+}
