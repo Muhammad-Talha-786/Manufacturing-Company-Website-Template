@@ -1,0 +1,24 @@
+.main {
+    border: 2px solid lightgray;
+    margin-top: 30px;
+}
+input{
+    font-size: 22px;
+    border-color: lightblue;
+    width: 250px;
+    height: 50px;
+}
+button{
+    width: 50px;
+    margin: 5px;
+}
+.input{
+   margin-top: 40px;
+   margin-bottom: 20px;
+}
+.foot{
+    margin-bottom: 20px;
+}
+.equal_sign{
+    width: 180px;
+}
