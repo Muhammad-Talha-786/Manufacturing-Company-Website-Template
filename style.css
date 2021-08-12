@@ -1,0 +1,6 @@
+body , .card-body {
+    background-color: antiquewhite;
+}
+.option:hover {
+    background-color: lightgray;
+}

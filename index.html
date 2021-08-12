@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Quiz App</title>
+  </head>
+  <body onload="show_qus(0)"
+    
+    <div class="container mt-5">
+        <div class="card border-primary">
+            <!-- Question Number -->
+            <div class="card-header" id="qus_number">Question no. 1</div>
+            <!-- Question's Body -->
+            <div class="card-body text-dark">
+            <!-- Question -->
+                <div class="container">
+                    <h5 class="card-title" id="qus_statement">Who Invented Internet first time?</h5>
+                </div>
+            <!-- Option 1 -->
+              <div class="container option">
+                <div class="card border-primary my-3">
+                    <div class="form-check my-3 ml-3">
+                        <input class="form-check-input" type="radio" name="answer" id="option_1" value="option_1">
+                        <label class="form-check-label" for="option_1" id="op_1">
+                          Tim Berners-Lee
+                        </label>
+                    </div>
+                </div>
+              </div>
+            <!-- Option 2 -->
+              <div class="container option">
+                <div class="card border-primary my-3">
+                    <div class="form-check my-3 ml-3">
+                        <input class="form-check-input" type="radio" name="answer" id="option_2" value="option_2">
+                        <label class="form-check-label" for="option_2" id="op_2">
+                          Roberto Nevelis
+                        </label>
+                    </div>
+                </div>
+              </div>
+            <!-- Option 3 -->
+              <div class="container option">
+                <div class="card border-primary my-3">
+                    <div class="form-check my-3 ml-3">
+                        <input class="form-check-input" type="radio" name="answer" id="option_3" value="option_3">
+                        <label class="form-check-label" for="option_3" id="op_3">
+                          Vinton Cerf and Bob Kahn
+                        </label>
+                    </div>
+                </div>
+              </div>
+            <!-- Option 4 -->
+              <div class="container option">
+                <div class="card border-primary my-3">
+                    <div class="form-check my-3 ml-3">
+                        <input class="form-check-input" type="radio" name="answer" id="option_4" value="option_4">
+                        <label class="form-check-label" for="option_4" id="op_4">
+                          Charles M. Herzfeld
+                        </label>
+                    </div>
+                </div>
+              </div>
+            <!-- Next / Submit Button -->
+              <div class="container col-sm-6 mt-3">
+                <button type="button" class="btn btn-success btn-lg btn-block" onclick="next_qus()">Next</button>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <script src="app.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
