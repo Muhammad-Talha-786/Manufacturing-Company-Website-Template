@@ -5,265 +5,455 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap & CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <title>Ardax Corporation of CNC Manufacturing & 3D Printing</title>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Saylani welfare</title>
   </head>
 
   <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg sticky-top navbar-dark " style="background-color: #0009; color: white;">
-        <span class="navbar-brand mb-0 h1">UOOLU</span>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
+    <!-- Header Code Start -->
+    <div class="container-fluid">
+      <div class="row hf">
+        <div class="col-sm-12 col-lg-3 pt-2 pb-2 m-auto text-center">
+          <img src="Images/facebook.png" id="facebook">
+          <img src="Images/twitter.png" id="twitter">
+          <img src="Images/instagram.png" id="instagram">
+          <img src="Images/Youtube.png" id="youtube">
+          <img src="Images/Whatsapp.png" id="whatsapp">
+        </div>
+        <div class="col-sm-12 col-lg-6 mt-3 text-center">
+          <p>Millions of people's life has changed, millions more awaiting your donation</p>
+        </div>
+        <div class="col-sm-12 col-lg-3 pt-2 pb-2 m-auto text-center">
+          <button>UK Donar</button>
+          <button>Donate Now</button>
+          <button>SMIT Results</button>
+        </div>
+      </div>
+    </div>
+    <!-- Header Code End -->
+
+    <!-- Navbar Code Start -->
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light" id="navbar">
+      <a class="navbar-brand ml-5 pl-5">
+          <img src="Images/Saylani-logo.png" width="180px" height="50px">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-5 pl-5">
+
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link rounded-pill " id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Home
+              </a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="products.html">Products & Solutions</a>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link rounded-pill dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                About
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item pill">Introduction</a>
+                <a class="dropdown-item pill">Chairman Message</a>
+                <a class="dropdown-item pill">Saylani Annual Report</a>
+              </div>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="services.html">Services & Support</a>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link rounded-pill dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Saylani Services
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <div class="dropright">
+                  <a class="dropdown-item dropdown-toggle pill" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Education</a>
+                  <div class="dropdown-menu">
+                    <!-- Dropdown menu links -->
+                    <a class="dropdown-item pill">Saylani Mass Training</a>
+                    <a class="dropdown-item pill">Saylani Incubator</a>
+                    <a class="dropdown-item pill">Green House</a>
+                  </div>
+                </div>
+                <div class="dropright">
+                  <a class="dropdown-item dropdown-toggle pill" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Medical</a>
+                  <div class="dropdown-menu">
+                    <!-- Dropdown menu links -->
+                    <a class="dropdown-item pill">Saylani Blood Bank and Thalassemia Center</a>
+                    <a class="dropdown-item pill">Saylani Clinic / Hospital</a>
+                    <a class="dropdown-item pill">Medical Internship Form</a>
+                  </div>
+                </div>
+                <div class="dropright">
+                  <a class="dropdown-item dropdown-toggle pill" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Welfare</a>
+                  <div class="dropdown-menu">
+                    <!-- Dropdown menu links -->
+                    <a class="dropdown-item pill">Family Adoption</a>
+                    <a class="dropdown-item pill">Wedding Help</a>
+                  </div>
+                </div>
+                <a class="dropdown-item pill">Hajj Application Form</a>
+                <a class="dropdown-item pill">Saylani Dastarkhwan</a>
+                <a class="dropdown-item pill">Saylani RO Plant</a>
+                <a class="dropdown-item pill">Online Sadqa</a>
+                <a class="dropdown-item pill">Online Taweezat / Istekhara</a>
+                <a class="dropdown-item pill">Saylani Job Bank</a>
+                <div class="dropright">
+                  <a class="dropdown-item dropdown-toggle pill" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Online Quran Academy</a>
+                  <div class="dropdown-menu">
+                    <!-- Dropdown menu links -->
+                    <a class="dropdown-item pill">Online Quran Admission</a>
+                    <a class="dropdown-item pill">Quran App (Tafteesh)</a>
+                    <a class="dropdown-item pill">Online Quran Registration</a>
+                  </div>
+                </div>
+                <a class="dropdown-item pill">Books</a>
+                <a class="dropdown-item pill">Saylani Online Masjid</a>
+              </div>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="news.html">News</a>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link rounded-pill dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Future Projects
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item pill">Saylani University</a>
+                <a class="dropdown-item pill">Saylani City</a>
+              </div>
             </li>
+
             <li class="nav-item">
-                <a class="nav-link" href="help.html">Help</a>
+              <a class="nav-link rounded-pill " id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Media
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link rounded-pill " id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                News
+              </a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link rounded-pill dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Donation
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item pill">Bank Details</a>
+                <a class="dropdown-item pill">Sadqa</a>
+                <a class="dropdown-item pill">Aqiqa</a>
+                <a class="dropdown-item pill">Other Donation</a>
+                <a class="dropdown-item pill">Corona Effecties</a>
+                <div class="dropright">
+                  <a class="dropdown-item dropdown-toggle pill" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Ramzan - 2020</a>
+                  <div class="dropdown-menu">
+                    <!-- Dropdown menu links -->
+                    <a class="dropdown-item pill">For Saudi Donations</a>
+                    <a class="dropdown-item pill">For EuropeDonations</a>
+                    <a class="dropdown-item pill">For UK Donations</a>
+                    <a class="dropdown-item pill">For UAE Donations</a>
+                    <a class="dropdown-item pill">For USA Donations</a>
+                    <a class="dropdown-item pill">For PAK Donations</a>
+                  </div>
+                </div>
+                <a class="dropdown-item pill">Contact Us</a>
+              </div>
             </li>
           </ul>
         </div>
-      </nav>
-      <!-- Carousel -->
-      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators mb-5">
-            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
-          </ol>
+    </nav>
+    <!-- Navbar code End -->
+
+    <!-- Slider Code Start -->
+    <div class="caruse m-0 p-0">
+      <div id="slider" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="Images/experts.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block mb-5">
-              <h5>CNC Manufacturing & 3D Printing</h5>
-              <p>Experience State of The Art Designing, Manufacturing and 3D Printing</p>
-            </div>
+            <img class="d-block w-100" src="Images/Banner.jpeg">
           </div>
           <div class="carousel-item">
-            <img src="Images/diverse.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block mb-5">
-              <h5>World Class Engineering</h5>
-              <p>With Highly Expert Team of Engineers & Workers and Cutting Edge Technology</p>
-            </div>
+            <img class="d-block w-100" src="Images/BloodBank.jpg">
           </div>
           <div class="carousel-item">
-            <img src="Images/quality.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block mb-5">
-              <h5>Advance & Precise Machinery</h5>
-              <p>Implementing Cutting Edge Technology & High Tech Machinery for Manufacturing</p>
-            </div>
+            <img class="d-block w-100" src="Images/RotiBank.jpg">
           </div>
-          <div class="carousel-item">
-            <img src="Images/products.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block mb-5">
-              <h5>High Quality Products</h5>
-              <p>We Deliver Products With Critical Tolerance Range and High Precision</p>
-            </div>
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-      <!-- Introduction -->
-      <div class="container text-center mt-5">
-        <h3 class="mb-0">ACMP</h3>
-        <img src="images/orange-bar.png" width="120px" height="3px">
-      </div>
-      <div class="container text-center mt-2">
-        <h6>ACMP is comprehensive in the production, design, manufacturing of CNC Machine & 3D Printer based products.</h6>
-        <h6>We provide high quality solutions and good efficienct services worldwide.</h6>
-      </div>
-      <!-- Services -->
-      <div class="container text-center mt-5 mb-3">
-        <h3 class="mb-0">Services & Support</h3>
-        <img src="images/orange-bar.png" width="200px" height="3px">
-      </div>
-      <div class="container">
-        <div class="card-deck">
-          <div class="card">
-            <img src="Images/CNC.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">CNC Manufacturing</h5>
-              <p class="card-text">Advance CNC Manufacturing with High-Tech Machinery</p>
-            </div>
-          </div>
-          <div class="card">
-            <img src="Images/injection.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Injection Moulding</h5>
-              <p class="card-text">Besides CNC plastic work, We also do Injection Moulding</p>
-            </div>
-          </div>
-          <div class="card">
-            <img src="Images/3DP.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">3D Printing</h5>
-              <p class="card-text">To Cover rising demand, We also cover paradigm of 3D Printing</p>
-            </div>
-          </div>
+          <a class="carousel-control-prev" href="#slider" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#slider" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
       </div>
-      <div class="container text-center">
-        <a href="services.html"><button type="button" class="btn btn-outline-dark my-5">See More</button></a>
-      </div>
-      <!-- Customer Thinking -->
-      <div class="container text-center mb-3">
-        <h3 class="mb-0">What our Customer think about ACMP ?</h3>
-        <img src="images/orange-bar.png" width="320px" height="3px">
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-4">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title"><i class="fa fa-user-circle-o fa-lg"></i> George Stantini</h5>
-                <p class="card-text">I have received praise for the wise tool purchase.In my opinion the ACMP products and services are far and away the...</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title"><i class="fa fa-user-circle-o fa-lg"></i> Jasmit N,</h5>
-                <p class="card-text">Following my purchase from ACMP 4 years ago, I have just taken delivery on time and experiece high quality work...</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title"><i class="fa fa-user-circle-o fa-lg"></i> Chuan Chee</h5>
-                <p class="card-text">Great service, I bought some parts from another company who I will not mention and regretted it from day...</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container text-center">
-        <a href="about.html"><button type="button" class="btn btn-outline-dark my-5">See More</button></a>
-      </div>
-      <!-- News -->
-      <div class="container text-center mb-3">
-        <h3 class="mb-0">Latest News</h3>
-        <img src="images/orange-bar.png" width="220px" height="3px">
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6">
-            <div class="card mt-2">
-              <img src="Images/CEO.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text">CEO taking briefing about the works and employees satisfaction. Moreover, He praised the best customer experience... <br>(19/11/2019)</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="card my-2">
-              <div class="card-body">
-                <h5 class="card-title">ACMP in Syria Damascus Exhibition Successfully</h5>
-                <p class="card-text">This is the first time we visited Syria and a Syrian company made a contract... (20/09/2019) </p>
-              </div>
-            </div>
-            <div class="card my-2">
-              <div class="card-body">
-                <h5 class="card-title">More practical CNC software</h5>
-                <p class="card-text">After more than one year of research and development and many years of practical... (26/05/2019)</p>
-              </div>
-            </div>
-            <div class="card my-2">
-              <div class="card-body">
-                <h5 class="card-title">China CNC Manufacturer Exhibition in Shanghai </h5>
-                <p class="card-text"> Being as one of the important components of APPPEXPO, the 27th Shanghai International... (07/03/2019)</p>
-              </div>
-            </div>
-            <div class="card my-2">
-              <div class="card-body">
-                <h5 class="card-title">Started Reverse Engineering For Armenia customer</h5>
-                <p class="card-text">One of our Armenian customer ask for redesign work on some old machinery... (25/10/2018)</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container text-center">
-        <a href="news.html"><button type="button" class="btn btn-outline-dark my-5">See More</button></a>
-      </div>
-      <!-- Footer -->
-      <div class="container-fluid" id="footer" style="color: white;">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-sm-1"></div>
-            <div class="col-sm-7 my-5">
-              <p><b>ACMP</b></p>
-              <p><a href="" style="color: #D44638;"><i class="fa fa-envelope"></i></a></i><b> Email: ACMP@gmail.com</b></p>
-              <p><a href="" style="color: lightgreen;"><i class="fa fa-phone"></i></a><b> Ph: 021-37xxxxxxxxx</b></p>
-              <p><a href="" style="color: lightcoral;"><i class="fa fa-fax"></i></a><b> Fax: 896-26xxxxxxxxx</b></p>
-              <p><a href="" style="color: lightblue;"><i class="fa fa-map-marker"></i></a><b> Address: Sector-17, Industrial Zone, Site Area Karachi Pakistan</b></p>
-            </div>
-            <div class="col-sm-4 my-5">
-              <p><b>Stay Connected With Us :</b></p>
-              <a href="" style="color: #3b5998;"><span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-              </span></a>
-              <a href="" style="color: #00acee;"><span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-              </span></a>
-              <a href="" style="color: #db4a39;"><span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
-              </span></a>
-              <a href="" style="color: #0e76a8;"><span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-              </span></a>
-              <a href="" style="color: #c4302b;"><span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
-              </span></a>
-            </div>
-          </div>
-        </div>
-      </div>
+    </div>
+    <!-- Slider Code End -->
 
-      <!-- Copyright -->
-      <nav class="navbar navbar-expand-lg navbar-light" style="background-color:black; color: white;">
-        <div class="mx-auto mt-3">
-          <p>Copyright <i class="fa fa-copyright"></i> ACMP. All rights reserved.</p>
+    <br>
+
+    <!-- News Feed Code start -->
+    <div class="container pt-3">
+      <marquee width="100%" direction="left" height="25px" id="marquee" behavior="scroll"
+        onmouseover="this.stop();"
+        onmouseout="this.start();">
+        <p>Saylani Welfare International Trust is a Pakistani charity focusing primarily on feeding the homeless. It was established in May 1999 and is headquartered at Bahdurabad, Karachi, Pakistan. It was founded and headed by spiritual and religious scholar Maulana Bashir Farooq Qadri.</p>
+      </marquee>
+    </div>
+    <!-- News Feed Code End -->
+
+    <!-- Intro Logo Code Start -->
+    <div class="container text-center pt-5">
+      <h2 class="intro">
+        <font class="blue">INTRO</font><font class="green">DUCTION</font>
+      </h2>
+      <span>
+        <img src="Images/minus.png" class="sign">
+        <img src="Images/head.png">
+        <img src="Images/minus.png" class="sign">
+      </span>
+    </div>
+    <!-- Intro Logo code End -->
+
+    <!-- Intro Text Code Start -->
+    <div class="container col-sm-9 text">
+      <br>
+      <p>
+        Established in May 1999 by famous spiritual and religious scholar Maulana Bashir Ahmed Farooqui, Saylani Welfare International Trust was built on the fundamentals of breaking the cycle of poverty, alleviating the financial troubles of the poor, giving people a chance to live a dignified life and spreading happiness.
+      </p>
+      <br>
+      <p>
+        We are an organization that believes in lighting up the lives of underprivileged people across the world. We endeavor to provide the best quality services in areas including food, education, medical and social welfare free of cost to people living in the dark. With over 60 different sectors, we feed thousands of hungry people each day, hundreds more are given the hope of life through medical health care, many are educated to become leaders of tomorrow and several are given the opportunity to stand on their feet financially.
+      </p>
+      <br>
+      <p>
+        Today, we are proud to say that our physical presence extends throughout Pakistan with a vast network of 125 branches operating in major cities including Karachi, Lahore, Islamabad, Rawalpindi, Hyderabad and Faisalabad. Apart from Pakistan, we have overseas offices in the UK, USA and UAE as well. Our worldwide branches are operating under the guidance of a team of over 2,000 working professionals who help almost 125,000 people on a daily basis.
+      </p>
+      <br>
+      <p>
+        We strongly believe that a little help goes a long way and our work would not be possible without the generous support of our valuable donors. Our local and international donors have graciously lent us a hand by supporting our causes and enabling us to serve the needs of people in need.
+      </p>
+      <br>
+    </div>
+    <!-- Intro Text Code End -->
+
+    <br><br>
+
+    <!-- Blue Ribbon Code Start -->
+    <div class="container-fluid py-5 text-center" id="content">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <img src="Images/food.png" width="40px" height="40px">
+          <h2 class="number">125,000</h2>
+          <h6 class="name">DAILY DASTARKHAWN<font class="green"> (MONTHLY)</font></h6>
         </div>
-      </nav>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <img src="Images/family.png" width="38px" height="38px">
+          <h2 class="number">7,500</h2>
+          <h6 class="name">FAMILY ADOPTION<font class="green"> (MONTHLY)</font></h6>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <img src="Images/medical.png" width="35px" height="35px">
+          <h2 class="number">43,749</h2>
+          <h6 class="name">MEDICAL<font class="green"> (MONTHLY)</font></h6>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <img src="Images/education.png" width="40px" height="40px">
+          <h2 class="number">180,000</h2>
+          <h6 class="name">EDUCATION<font class="green">(MONTHLY)</font></h6>
+        </div>
+      </div>
+    </div>
+    <!-- Blue Ribbon Code End -->
+
+    <br>
+  
+    <!-- Heading Code Start -->
+    <div class="container text-center pt-5">
+      <h2 class="intro">
+        <font class="blue">WHAT WE</font><font class="green"> ARE DOING?</font>
+      </h2>
+      <span>
+        <img src="Images/minus.png" class="sign">
+        <img src="Images/head.png">
+        <img src="Images/minus.png" class="sign">
+      </span>
+    </div>
+    <!-- Heading Code End -->
+
+    <br>
+
+    <!-- Cards Code Start -->
+    <div class="container text-center">
+      <div class="row">
+        <div class="card bg-light col-sm-12 col-md-6 col-lg-5 my-4 mx-auto">
+          <div class="card-body text-center">
+            <img src="Images/sadqa.png">
+            <h5><br><font class="one">ONLINE SADQAH</font></h5>
+          </div>
+        </div>
+        <div class="card bg-light col-sm-12 col-md-6 col-lg-5 my-4 mx-auto">
+          <div class="card-body text-center">
+            <img src="Images/welfare.png">
+        <h5><br><font class="one">SAYLANI WELFARE</font></h5>
+          </div>
+        </div>
+        <div class="card bg-light col-sm-12 col-md-6 col-lg-5 my-4 mx-auto">
+          <div class="card-body text-center">
+            <img src="Images/med.png">
+        <h5><br><font class="one">MEDICAL SUPPORT</font></h5>
+          </div>
+        </div>
+        <div class="card bg-light col-sm-12 col-md-6 col-lg-5 my-4 mx-auto">
+          <div class="card-body text-center">
+            <img src="Images/dastar.png">
+        <h5><br><font class="one">DASTARKHAWN</font></h5>
+          </div>
+        </div>
+        <div class="card bg-light col-sm-12 col-md-6 col-lg-5 my-4 mx-auto">
+          <div class="card-body text-center">
+            <img src="Images/plant.png">
+        <h5><br><font class="one">RO PLANT</font></h5>
+          </div>
+        </div>
+        <div class="card bg-light col-sm-12 col-md-6 col-lg-5 my-4 mx-auto">
+          <div class="card-body text-center">
+            <img src="Images/edu.png">
+        <h5><br><font class="one">EDUCATION</font></h5>
+          </div>
+        </div>
+      </div>
+      </div>
+</div>
+    <!-- Cards Code End -->
+
+    <br>
+
+    <!-- Upcoming Projects & Events Code Start -->
+    <div class="container pt-5">
+      <div class="row">
+        <div class="col-md-8">
+          <h4 class="one">MISSION AND UPCOMING PROJECTS<br>
+            <img src="Images/minus.png" width="50px" height="40px"></h4>
+          <div class="row">
+            <div class="card bg-light col-md-5 mb-4 mx-3">
+              <div class="card-body">
+                <img src="Images/Hepatitis.png" width="40px" height="40px">
+                <font class="one ml-2">HEPATITIS</font>
+              </div>
+            </div>
+            <div class="card bg-light col-md-5 mb-4 mx-3">
+              <div class="card-body">
+                <img src="Images/IT.png" width="40px" height="40px">
+                <font class="one ml-2">IT LITERACY</font>
+              </div>
+            </div>
+            <div class="card bg-light col-md-5 mb-4 mx-3">
+              <div class="card-body">
+                <img src="Images/housing.png" width="40px" height="40px">
+                <font class="one ml-2">HOUSING SOCIETY</font>
+              </div>
+            </div>
+            <div class="card bg-light col-md-5 mb-4 mx-3">
+              <div class="card-body">
+                <img src="Images/tharparkar.png" width="40px" height="40px">
+                <font class="one ml-2">THARPARKAR</font>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <h4 class="one">Upcoming Events<br>
+            <img src="Images/minus.png" width="50px" height="40px"></h4>
+          <marquee width="100%" direction="up" height="170px" behavior="scroll"
+        onmouseover="this.stop();"
+        onmouseout="this.start();">
+        <p>Saylani Welfare Distributing Ration & Clothes to affected people of Balochistan. <b class="blue">More Details ...</b></p>
+        <p>Entry Test Accouncement (Graphic Designing & Video Editing/Animation Course) On Sunday 3rd March 2019 @ 11:00Am Vanue: 4rh Floor, Saylani Welfare International Trust HeadOffice Bahadurabad. <b class="blue">More Details ...</b></p>
+        <p>Dr Jamil Ahmed (Additional Inspector General of Police) & Atiqmir Visit Saylani Welfare International Trust, Saylani Mass I.T. Training. <b class="blue">More Details ...</b></p>
+        <p>PIAIC Entrance Exam Merit Ranking List Announced. <b class="blue">More Details ...</b></p>
+        </marquee>
+        </div>
+      </div>
+    </div>
+    <!-- Upcoming Projects & Events Code End -->
+
+    <!-- Image Gallery Logo Code Start -->
+    <div class="container text-center pt-5">
+      <h2 class="intro">
+        <font class="blue">IMAGE</font><font class="green"> GALLERY</font>
+      </h2>
+      <span>
+        <img src="Images/minus.png" class="sign">
+        <img src="Images/head.png">
+        <img src="Images/minus.png" class="sign">
+      </span>
+    </div>
+    <!-- Image Gallery Logo Code End -->
+
+    <br>
+
+    <!-- Images Code Start -->
+    <div class="container pt-3">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-3">
+            <img class="img-thumbnail" src="Images/rashan.jpg">
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <img class="img-thumbnail" src="Images/hazrat.jpg">
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <img class="img-thumbnail" src="Images/food.jpg">
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <img class="img-thumbnail" src="Images/hazrat2.jpg">
+        </div>
+      </div>
+    </div>
+    <!-- Images Code End -->
+
+    <br><br><br><br><br> 
+
+    <!-- Last Blue Ribbon Code Start -->
+    <div class="container-fluid footer">
+      <div class="row pt-5">
+        <div class="col-md-7 pl-5 ml-5">
+          <h7>Head Office,<br>A-25, Bahdurabad Chowrangi Karachi,Pakistan</h7>
+          <br><br>
+          <font><i class="fa fa-phone"></i> UAN: 111-729-526</font>  
+          <font><i class="fa fa-globe ml-4"></i> (+0092-213)4130786-90</font><br>
+          <font><i class="fa fa-phone"> </i> CELL:92-311-1729526</font> <br>
+          <font><i class="fa fa-phone"> </i> USA NO (+44)115 970 6256</font> <br>
+          <font><i class="fa fa-phone"> </i> UK NO (+44)115 970 6256</font> <br>
+          <font><i class="fa fa-envelope-o"> </i> info@saylaniwelfare.com</font><br><br><br>
+       </div>
+            
+            <div class="col-md-3 mb-5 ml-5">
+              <h6>Connect With Us</h6>
+              <i class="fa fa-facebook p-2 rounded-circle"></i>
+              <i class="fa fa-twitter p-2 rounded-circle"></i>
+              <i class="fa fa-instagram p-2 rounded-circle"></i>
+              <i class="fa fa-youtube p-2 rounded-circle"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-fluid copyright">
+          <div class="row">
+            <div class="col-sm-4 mt-3 ml-5 pl-5">
+              <font>Copyright © 2020 Saylani Welfare</font>
+            </div>
+          </div>
+        </div>
+    <!-- Last Blue Ribbon Code End -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   </body>
 </html>
